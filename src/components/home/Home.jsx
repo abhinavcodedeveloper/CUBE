@@ -15,8 +15,6 @@ const Home = () => {
       <Recent />
       <Awards />
       <Location />
-      <Team />
-      <Price />
     </>
   )
 }

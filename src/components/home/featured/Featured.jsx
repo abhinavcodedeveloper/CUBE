@@ -3,7 +3,7 @@ import Heading from "../../common/Heading"
 import "./Featured.css"
 import FeaturedCard from "./FeaturedCard"
 
-const Featured = () => {
+const   Featured = () => {
   return (
     <>
       <section className='featured background'>

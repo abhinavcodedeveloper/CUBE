@@ -8,14 +8,6 @@ export const nav = [
     path: "/about",
   },
   {
-    text: "services",
-    path: "/services",
-  },
-  {
-    text: "blog",
-    path: "/blog",
-  },
-  {
     text: "pricing",
     path: "/pricing",
   },
@@ -58,7 +50,7 @@ export const list = [
     name: "Red Carpet Real Estate",
     location: "210 Zirak Road, Canada",
     category: "For Rent",
-    price: "$3,700",
+    price: "0.01 ETH",
     type: "Apartment",
   },
   {
@@ -67,7 +59,7 @@ export const list = [
     name: "Fairmount Properties",
     location: "5698 Zirak Road, NewYork",
     category: "For Sale",
-    price: "$9,750",
+    price: "0.05 ETH",
     type: "Condos",
   },
   {
@@ -76,7 +68,7 @@ export const list = [
     name: "The Real Estate Corner",
     location: "5624 Mooker Market, USA",
     category: "For Rent",
-    price: "$5,860",
+    price: "1 ETH",
     type: "Offices",
   },
   {
@@ -85,7 +77,7 @@ export const list = [
     name: "Herringbone Realty",
     location: "5621 Liverpool, London",
     category: "For Sale",
-    price: "$7,540",
+    price: "1.5 ETH",
     type: "Homes & Villas",
   },
   {
@@ -94,7 +86,7 @@ export const list = [
     name: "Brick Lane Realty",
     location: "210 Montreal Road, Canada",
     category: "For Rent",
-    price: "$4,850",
+    price: "0.5 ETH",
     type: "Commercial",
   },
   {
@@ -103,30 +95,30 @@ export const list = [
     name: "Banyon Tree Realty",
     location: "210 Zirak Road, Canada",
     category: "For Sale",
-    price: "$2,742",
+    price: "1 ETH",
     type: "Apartment",
   },
 ]
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
-    name: "Blue Burmin Award",
+    num: "0 M	",
+    name: "X Award",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
-    name: "Mimo X11 Award",
+    num: "0 M",
+    name: "X Award",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
-    name: "Australian UGC Award",
+    num: "0 M",
+    name: "X Award",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
-    name: "IITCA Green Award",
+    num: "0 M",
+    name: "X Award",
   },
 ]
 export const location = [
@@ -315,4 +307,42 @@ export const footer = [
     title: "COMPANY",
     text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
   },
+]
+
+export const Blockchainimp = [
+  {
+    id:"123456789012",
+    prevCustom:[
+      {
+        name:"Harsh",
+        Age:"21"
+      },
+      {
+        name:"ABHINAV",
+        Age:"21"
+      },
+      {
+        name:"Yashika",
+        Age:"19"
+      }
+    ]
+  },
+  {
+    id:"123456789011",
+    prevCustom:[
+      {
+        name:"Harsh",
+        Age:"21"
+      },
+      {
+        name:"Harsh",
+        Age:"21"
+      },
+      {
+        name:"Harsh",
+        Age:"21"
+      }
+    ]
+  }
+
 ]

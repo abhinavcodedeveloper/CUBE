@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+          <Heading title='Unlocking Real Estate Investment ' subtitle='Tokenize Your Future with CUBE' />
 
           <form className='flex'>
             <div className='box'>

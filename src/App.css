@@ -43,13 +43,13 @@ button i {
   margin: auto;
 }
 .heading h1 {
-  color: #2d3954;
+  color: #bbc2d2;
   font-weight: 600;
   text-transform: capitalize;
   font-size: 35px;
 }
 .heading p {
-  color: #72809d;
+  color: #8c919a;
 }
 textarea,
 input {
@@ -60,7 +60,10 @@ input {
 .background {
   padding: 80px 0;
   position: relative;
-  background: #f7f9fc;
+  /* background: #f7f9fc;   */
+  background: black;
+  
+  color: white;
 }
 
 .grid5 {
@@ -84,6 +87,7 @@ h4 {
 }
 .padding {
   padding: 80px 0;
+  background-color: black;
 }
 .grid3 {
   display: grid;
@@ -152,7 +156,9 @@ img {
   font-weight: 500;
 }
 .mb {
-  margin-bottom: 80px;
+    padding: 4rem 0 4rem 0;
+    background: -webkit-radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 10%, 1) 100%);
+
 }
 @media screen and (max-width: 800px) {
   .grid4,
