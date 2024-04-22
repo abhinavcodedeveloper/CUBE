@@ -2,6 +2,7 @@ import React from "react"
 import Back from "../common/Back"
 import Heading from "../common/Heading"
 import img from "../images/about.jpg"
+import imagea from "./pngwing.com (2).png"
 import "./about.css"
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
             <button className='btn2'>More About Us</button>
           </div>
           <div className='right row'>
-            <img src='./immio.jpg' alt='' />
+            <img src={imagea} alt='' />
           </div>
         </div>
       </section>
